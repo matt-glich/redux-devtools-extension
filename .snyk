@@ -24,3 +24,5 @@ patch:
         patched: '2020-11-19T22:30:13.019Z'
     - remotedev-app > redux-devtools > redux-devtools-instrument > lodash:
         patched: '2020-11-19T22:30:13.019Z'
+    - snyk > snyk-nuget-plugin > xml2js > xmlbuilder > lodash:
+        patched: '2020-11-19T22:34:29.659Z'
