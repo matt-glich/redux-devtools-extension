@@ -21,7 +21,9 @@
     "test:app": "cross-env BABEL_ENV=test mocha --require test/app/setup.js --recursive test/app",
     "test:chrome": "gulp test:chrome",
     "test:electron": "gulp test:electron && rimraf test/electron/tmp",
-    "test": "npm run test:app && npm run build:extension && npm run test:chrome && npm run test:electron"
+    "test": "npm run test:app && npm run build:extension && npm run test:chrome && npm run test:electron",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -73,9 +75,9 @@
   },
   "dependencies": {
     "jsan": "^3.1.13",
-    "lodash": "^4.17.2",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
+    "lodash": "^4.17.20",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-icons": "^2.2.1",
     "react-json-tree": "^0.10.9",
     "react-redux": "^4.4.5",
@@ -87,6 +89,8 @@
     "remotedev-serialize": "^0.1.8",
     "remotedev-slider": "^1.1.1",
     "remotedev-utils": "0.0.1",
-    "terser-webpack-plugin": "^1.1.0"
-  }
+    "terser-webpack-plugin": "^2.1.1",
+    "snyk": "^1.428.2"
+  },
+  "snyk": true
 }
