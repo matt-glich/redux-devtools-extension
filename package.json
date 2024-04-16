@@ -82,15 +82,15 @@
     "react-json-tree": "^0.10.9",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
-    "redux-devtools": "^3.4.1",
-    "redux-devtools-instrument": "^1.9.6",
+    "redux-devtools": "^3.7.0",
+    "redux-devtools-instrument": "^1.10.0",
     "remotedev-app": "^0.10.13-beta",
     "remotedev-monitor-components": "^0.0.5",
     "remotedev-serialize": "^0.1.8",
     "remotedev-slider": "^1.1.1",
     "remotedev-utils": "0.0.1",
     "terser-webpack-plugin": "^2.1.1",
-    "snyk": "^1.428.2"
+    "snyk": "^1.996.0"
   },
   "snyk": true
 }
